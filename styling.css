@@ -1,0 +1,23 @@
+body {
+  background:#2B2B2B
+}
+
+#big_wrapper{text-align:center; 
+             background:#2B2B2B;
+}
+
+.Header{ text-align:center; 
+         background:#2B2B2B;
+}
+.location{  padding: 25px;
+            background: #2B2B2B;  
+}
+.weather{  padding: 15px;
+            background: #2B2B2B;
+           font:  25px helvetica  
+}
+
+.blue-text{font-family: times;
+           color:#558C89;
+           font-size: 25px;
+}
