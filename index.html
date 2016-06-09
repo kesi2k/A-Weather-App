@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
  <head>
+    <title>
+          Makesi Hamilton
+ 	  </title>
     <meta charset='UTF-8'>
     <!-- Viewport meta tag, to ensure proper rendering and touch zooming -->
     <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
@@ -11,13 +14,22 @@
 </head>
 
 <body>
+  
   <div id="big_wrapper">
-    <div id="Header" class="blue-text">
-      <h1 class = "Header">Weather App</h1>
-    </div>
-    <div>
-      <p class="location blue-text" id="user_location">Location</p>
-    </div>
+    
+    <header id="top_header" class="navbar-fixed-top">
+      <nav id="menu_header">
+        <ul>
+          <li><a href="http://kesi2k.github.io/">Home page</a></li>
+        </ul>
+      </nav>
+      <h1 id="name">Makesi Hamilton</h1>
+    </header>
+        <div id="Header"><h1 class="blue-text"> Weather App </h1>    
+      <div>
+        <h1 class="blue-text weather"> Weather App </h1>
+          <p class="location blue-text" id="user_location">Location</p>
+      </div>
     <ul class="list-inline weather ">
       <li class="blue-text weather" id="user_weather">Weather</li>
       <li class="blue-text weather" id="user_temp">Temp</li>
@@ -26,10 +38,13 @@
         <button id="units" class="btn btn-default blue-text weather">F&deg/C&deg</button>
       </li>
     </ul>
-    <div id="img_look">
-      <img id="weather_icon" src="https://openweathermap.org/img/w/04n.png"> </div>
+      <div id="img_look">
+        <img id="weather_icon" src="https://openweathermap.org/img/w/04n.png"> 
+      </div>
+      </div>
     </div>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
   <script type="text/javascript" src='index.js'></script>
 </body>
